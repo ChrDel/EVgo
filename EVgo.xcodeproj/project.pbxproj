@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB4C8DB7EB6BECBF638B1432 /* Pods_EVgo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB67396CAB2A8D44AD083D4 /* Pods_EVgo.framework */; };
+		EE143884241C1331008A66C3 /* EVgoLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = EE143883241C1331008A66C3 /* EVgoLogo.png */; };
 		EE54A0D3241AC1F90076E88B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54A0D2241AC1F90076E88B /* AppDelegate.swift */; };
 		EE54A0D5241AC1F90076E88B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54A0D4241AC1F90076E88B /* SceneDelegate.swift */; };
 		EE54A0D7241AC1F90076E88B /* EVgoMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54A0D6241AC1F90076E88B /* EVgoMapViewController.swift */; };
@@ -29,6 +30,7 @@
 		8EB67396CAB2A8D44AD083D4 /* Pods_EVgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73F2108FE7F0394B4FAFF76 /* Pods-EVgo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVgo.debug.xcconfig"; path = "Target Support Files/Pods-EVgo/Pods-EVgo.debug.xcconfig"; sourceTree = "<group>"; };
 		D9D071AE56C096665914AFBA /* Pods-eVgo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eVgo.debug.xcconfig"; path = "Target Support Files/Pods-eVgo/Pods-eVgo.debug.xcconfig"; sourceTree = "<group>"; };
+		EE143883241C1331008A66C3 /* EVgoLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EVgoLogo.png; sourceTree = "<group>"; };
 		EE54A0CF241AC1F90076E88B /* EVgo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVgo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE54A0D2241AC1F90076E88B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE54A0D4241AC1F90076E88B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				EE54A0D2241AC1F90076E88B /* AppDelegate.swift */,
 				EE54A0D4241AC1F90076E88B /* SceneDelegate.swift */,
 				EE54A0DB241AC1FA0076E88B /* Assets.xcassets */,
+				EE143883241C1331008A66C3 /* EVgoLogo.png */,
 				EE54A0E0241AC1FA0076E88B /* Info.plist */,
 				EE54A0F6241B4C920076E88B /* API */,
 				EE54A0FB241C0B1E0076E88B /* Classes */,
@@ -227,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE143884241C1331008A66C3 /* EVgoLogo.png in Resources */,
 				EE54A0DF241AC1FA0076E88B /* LaunchScreen.storyboard in Resources */,
 				EE54A0DC241AC1FA0076E88B /* Assets.xcassets in Resources */,
 				EE54A0DA241AC1F90076E88B /* Main.storyboard in Resources */,

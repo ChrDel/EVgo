@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dyy-UK-CJ8">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--EVgo-->
+        <scene sceneID="3Up-KI-7P6">
+            <objects>
+                <viewController id="v8c-Wk-kEM" customClass="EVgoMapViewController" customModule="eVgo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wq2-ub-ug5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" showsScale="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gHa-tK-SFH">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="gHa-tK-SFH" firstAttribute="top" secondItem="NSO-aX-sIV" secondAttribute="top" id="9GL-o4-E6Y"/>
+                            <constraint firstItem="gHa-tK-SFH" firstAttribute="leading" secondItem="NSO-aX-sIV" secondAttribute="leading" id="IiZ-IO-hYY"/>
+                            <constraint firstAttribute="bottom" secondItem="gHa-tK-SFH" secondAttribute="bottom" id="bE4-dA-WNM"/>
+                            <constraint firstItem="NSO-aX-sIV" firstAttribute="trailing" secondItem="gHa-tK-SFH" secondAttribute="trailing" id="fiT-M8-pJ8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NSO-aX-sIV"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="EVgo" id="W2E-An-4SF"/>
+                    <connections>
+                        <outlet property="mapView" destination="gHa-tK-SFH" id="0CM-sa-R5e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1m1-84-ybj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="962.31884057971024" y="375"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fPy-cL-Low">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dyy-UK-CJ8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xfp-lp-04W">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="v8c-Wk-kEM" kind="relationship" relationship="rootViewController" id="tzy-Oa-3QQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ij3-aJ-HPP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="126" y="375"/>
+        </scene>
+    </scenes>
+</document>

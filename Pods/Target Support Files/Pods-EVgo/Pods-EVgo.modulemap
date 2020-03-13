@@ -1,0 +1,6 @@
+framework module Pods_EVgo {
+  umbrella header "Pods-EVgo-umbrella.h"
+
+  export *
+  module * { export * }
+}
